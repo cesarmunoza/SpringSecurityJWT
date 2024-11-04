@@ -1,0 +1,16 @@
+server:
+  port: 8081
+spring:
+  application:
+    name:
+      SpringSecurityJWT
+
+  r2dbc:
+    url: r2dbc:postgresql://206.189.183.181:5432/volga3?sslMode=require
+    username: volga3
+    password: eVOLACAMo67
+
+logging:
+  level:
+    io.r2dbc.postgresql.QUERY: DEBUG
+    # Activa los logs para mostrar las consultas SQL
